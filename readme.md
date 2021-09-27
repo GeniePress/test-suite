@@ -26,5 +26,13 @@ The GeniePress framework is open-sourced software licensed under the [MIT licens
 
 ## Running Tests
 
+Start the selenium driver
 `npx selenium-standalone start`
-`vendor/bin\codecept run acceptance`
+
+Run the tests
+
+`vendor/bin/codecept run acceptance`
+
+`vendor/bin/codecept run functional`
+
+`vendor/bin/codecept run unit`
